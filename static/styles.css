@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('E:\SIH\static\images\altitude_2-wallpaper-5120x2880.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 1em;
+    box-sizing: border-box;
+    resize: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.result-container h2 {
+    color: #333;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #45a049;
+}
